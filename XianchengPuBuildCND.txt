@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+
+<!--Continuing to use the webpage made in the previous classwork, assign the class "paragraph" to the paragraph tag. Create a chain selector and pick another font color from the rest of the text.
+Submit the webspace link as the submission text and attach the html file as FirstNameLastInitialBuild4.HTML.
+Here is an example;
+http://webpage.pace.edu/rdagostino2/RebeccaDBuild4.HTML-->
+
+<html>
+
+<head>
+
+	<style>
+		h1{
+		color: blue;
+		font-family: Arial;
+		}
+		p.paragraph{
+		color: red;
+		}
+	</style>
+
+<title>My Web Page</title>
+
+</head>
+
+<!-- Here is where the main code goes -->
+	
+<body>
+<h1>Welcome to My Web Page</h1>
+	<h2>Xiancheng Pu</h2><br><br>
+	<p class="paragraph">I'm Xiancheng Pu, I got two english name, Stephen and Alan. But I prefer Stephen in USA. I love playing basketball and badminton as my sports. My favorite instrument is guitar.</p> 
+	
+<!-- Dialog -->
+<section>
+  <button type="button" onclick="document.getElementById('dialog-default').showModal();">
+    My Nickname
+  </button>
+  <dialog id="dialog-default">
+    <form method="dialog">
+      <p class="title">Dialog</p>
+      <p>Kasaki_Sakili</p>
+      <menu class="dialog-menu">
+        <button>Cancel</button>
+        <button>Confirm</button>
+      </menu>
+    </form>
+  </dialog>
+</section>
+
+<ol>
+	<li>Play guitar</li>
+	<li>Play Basketball</li>
+	<li>Coding</li>
+	<li>Streaming on Twitch</li>
+</ol>
+<img src="https://s.yimg.com/ny/api/res/1.2/umHJJQAzal.Ar.laG6bGWQ--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/b427d19dd6238628dc7fa8acc2c212d3" width="320" height="250" alt="A basketball"/>
+
+</body>
+
+<div>
+  <label for="name_field">What hobbies do you like? (Write down one please)</label>
+  <input type="text" id="name_field">
+</div>
+
+<label for="textarea_field">Leave a Message:</label>
+<textarea id="textarea_field"></textarea>
+
+<footer>Xiancheng Pu - xp82228n@pace.edu</footer>
+
+</html>

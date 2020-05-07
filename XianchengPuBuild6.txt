@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<!--Continuing to use the webpage made in the previous classwork, insert the script tag below the style tag. Create two number datatypes, and add them together to be displayed in the console and display it anywhere within your website using the document.write(variable) command in the script tag.
+Submit the webspace link as the submission text and attach the html file as FirstNameLastInitialBuild5.HTML.
+Here is an example;
+http://webpage.pace.edu/rdagostino2/RebeccaDBuild5.HTML-->
+
+<html>
+
+<head>
+
+	<style>
+		h1{
+		color: blue;
+		font-family: Arial;
+		}
+		p.paragraph{
+		color: red;
+		}
+	</style>
+
+<script>
+	var x = 8;
+	var y = 14;
+	var z = x + y;
+	document.write(z);
+</script>
+
+<title>My Web Page</title>
+
+</head>
+
+<!-- Here is where the main code goes -->
+	
+<body>
+<h1>Welcome to My Web Page</h1>
+	<h2>Xiancheng Pu</h2><br><br>
+	<p class="paragraph">I'm Xiancheng Pu, I got two english name, Stephen and Alan. But I prefer Stephen in USA. I love playing basketball and badminton as my sports. My favorite instrument is guitar.</p> 
+
+<ol>
+	<li>Play guitar</li>
+	<li>Play Basketball</li>
+	<li>Coding</li>
+	<li>Streaming on Twitch</li>
+</ol>
+<img src="https://s.yimg.com/ny/api/res/1.2/umHJJQAzal.Ar.laG6bGWQ--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/b427d19dd6238628dc7fa8acc2c212d3" width="320" height="250" alt="A basketball"/>
+
+</body>
+
+<footer>Xiancheng Pu - xp82228n@pace.edu</footer>
+
+</html>
